@@ -1,9 +1,9 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.font-open-sans {
+.font-open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
@@ -11,31 +11,33 @@
     font-size: 45px;
     font-weight: 900;
 }
-.color-orange {
+.color-orange{
     color: #FD6E0A;
 }
 .btn{
     border: none;
     background-color: #FD6E0A;
-    padding: 18px 35px;
+    color: #FFFFFF;
     border-radius: 5px;
+    padding: 18px 35px;
     font-size: 20px;
     font-weight: bold;
-    color: #FFFFFF;
-
+    cursor: pointer;
 }
 header{
     background-color: #FFF8F3;
+    background: url("../images/developer.png") , url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
     padding-top: 50px;
 }
 nav{
     width: 71%;
-    max-width: 1140;
-    margin: 0 auto;
+    max-width: 1140px;
     display: flex;
+    margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    
 }
 nav .menu{
     display: flex;
@@ -45,6 +47,37 @@ nav .menu{
 }
 nav .menu a{
     text-decoration: none;
-    font-size: 20px;
     color: #474747;
+    font-size: 20px;
+}
+#banner{
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-content{
+    max-width: 585px;
+}
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#banner .banner-content h1{
+    font-weight: bold;
+    font-size: 85px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#banner .banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
 }
